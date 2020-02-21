@@ -1577,6 +1577,7 @@
     changeSrc: function (newSrc) {
       var self = this;
       self.unload(true);
+      self._duration = Math.ceil(self._node.duration * 10) / 10
       self._src = newSrc;
       self.load();
     },
