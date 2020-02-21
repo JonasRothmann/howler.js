@@ -1579,7 +1579,6 @@
       self.unload(true);
       self._src = newSrc;
       self.load();
-      self._duration = Math.ceil(self._node.duration * 10) / 10;
     },
 
     /**
