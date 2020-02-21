@@ -1569,6 +1569,17 @@
     state: function() {
       return this._state;
     },
+  
+    /**
+     * Changes the current source*
+     * @param  {String} newSrc The new source value
+     */
+    changeSrc: function (newSrc) {
+      var self = this;
+      self.unload(true);
+      self._src = newSrc;
+      self.load();
+    },
 
     /**
      * Unload and destroy the current Howl object.
