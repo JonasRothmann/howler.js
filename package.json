@@ -17,7 +17,7 @@
     "audiosprite"
   ],
   "author": "James Simpson <james@goldfirestudios.com> (http://goldfirestudios.com)",
-  "repository":   
+  "repository": {
     "type": "git",
     "url": "git://github.com/goldfire/howler.js.git"
   },
